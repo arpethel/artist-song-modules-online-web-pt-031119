@@ -7,7 +7,7 @@ module Memorable
     def count
       self.all.count
     end
-
+    #Findable
     def find_by_name(name)
       self.all.detect{|a| a.name == name}
     end
